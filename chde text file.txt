@@ -1,0 +1,14 @@
+/*Receiver_Operation c2=new Receiver_Operation();	
+		c2.Receiver_Operation1();
+		 String st2=t1.getText();
+		String st=t2.getText();
+		int port2=Integer.parseInt(st);
+		ServerToClient2 r1=new ServerToClient2(st2,port2);
+		r1.run1();*/
+
+
+String st=t2.getText();
+		int port1=Integer.parseInt(st);
+		 String st2=t3.getText();
+		int port2=Integer.parseInt(st2);
+		new ModifiedServer(port1,port2);
